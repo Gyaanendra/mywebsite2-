@@ -1,0 +1,65 @@
+
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyimg {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: space-evenly ;
+  
+  
+}
+.grid img{
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.origami {
+  
+  border-radius: 20px;
+ 
+  
+  width:310px;
+  font-family: fantasy;
+  
+}
+
+
+.fd {
+  color: #ff3300;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.it {
+  text-align:center;
+  color: #ff3300;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a {
+  color: #ff1a8c;
+}
